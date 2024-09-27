@@ -1,0 +1,138 @@
+.home {
+
+    .our,
+    .integrated,
+    .lti {
+        background-color: #0c1234;
+    }
+
+    .our,
+    .integrated,
+    .lti,
+    .journey {
+        text-align: center;
+        padding: 40px 0;
+        color: white;
+    }
+
+    .lti {
+        padding: 100px 0;
+
+        p {
+            padding: 30px 220px;
+            font-size: 20px;
+        }
+
+        button {
+            border-radius: 20px;
+            padding: 10px 25px;
+        }
+
+        background-image: url(../../assests/blue\ yellow\ gradient.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .journey {
+        color: #004b88;
+
+        p {
+            padding: 30px 220px;
+            font-size: 20px;
+        }
+    }
+
+    .journey-cards {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .chairman {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 600px;
+            margin-right: 100px;
+        }
+
+        div {
+            font-size: 20px;
+            width: 30%;
+        }
+
+        button {
+            border-radius: 20px;
+            padding: 10px 25px;
+        }
+    }
+
+    .opportunity {
+        display: flex;
+        background-color: white;
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        align-items: center;
+        
+        .image {
+            height: 680px;
+            width: 60%;
+            background-image: url(../../assests/lady.png);
+            background-size: cover;
+            color: white;
+            padding: 15px;
+            border-radius: 15px;
+            font-size: 20px;
+        }
+
+        .content {
+            margin-left: 50px;
+
+            .last {
+                margin-left: 70px;
+            }
+
+            .cont-div {
+                display: flex;
+                padding: 15px 0;
+    
+                section {
+                    margin-left: 20px;
+                }
+                
+                h2, p {
+                    margin: 0;
+                }
+            }
+        }
+
+        .points {
+            display: flex;
+
+            span {
+                background-color: yellow;
+                font-weight: bolder;
+                display: inline-block;
+                
+            }
+
+            section {
+                div {
+                    display: flex;
+                    
+                    p {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+
+        .points > div {
+            width: 40%;
+            margin-right: 30px;
+        }
+    }
+}
