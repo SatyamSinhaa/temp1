@@ -1,5 +1,17 @@
 .home {
 
+    button {
+        border-radius: 20px;
+        padding: 10px 25px;
+        background-image: linear-gradient(274deg, rgb(170, 103, 50) 0%, rgb(38, 119, 201) 100%);
+        color: white;
+        border-style: none;
+    }
+
+    button:hover {
+        background-image: linear-gradient(274deg, rgb(38, 119, 201), rgb(170, 103, 50));
+    }
+
     .our,
     .integrated,
     .lti {
@@ -15,17 +27,13 @@
         color: white;
     }
 
+    
     .lti {
         padding: 100px 0;
 
         p {
             padding: 30px 220px;
             font-size: 20px;
-        }
-
-        button {
-            border-radius: 20px;
-            padding: 10px 25px;
         }
 
         background-image: url(../../assests/blue\ yellow\ gradient.jpg);
@@ -44,8 +52,12 @@
 
     .journey-cards {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         text-align: center;
+        
+        div {
+            width: 300px;
+        }
     }
 
     .chairman {
@@ -62,11 +74,6 @@
             font-size: 20px;
             width: 30%;
         }
-
-        button {
-            border-radius: 20px;
-            padding: 10px 25px;
-        }
     }
 
     .opportunity {
@@ -76,7 +83,7 @@
         margin: auto;
         padding: 20px;
         align-items: center;
-        
+
         .image {
             height: 680px;
             width: 60%;
@@ -98,12 +105,13 @@
             .cont-div {
                 display: flex;
                 padding: 15px 0;
-    
+
                 section {
                     margin-left: 20px;
                 }
-                
-                h2, p {
+
+                h2,
+                p {
                     margin: 0;
                 }
             }
@@ -116,13 +124,12 @@
                 background-color: yellow;
                 font-weight: bolder;
                 display: inline-block;
-                
             }
 
             section {
                 div {
                     display: flex;
-                    
+
                     p {
                         margin-left: 20px;
                     }
@@ -130,9 +137,190 @@
             }
         }
 
-        .points > div {
+        .points>div {
             width: 40%;
             margin-right: 30px;
+        }
+    }
+
+    .service {
+        .box {
+            display: flex;
+            justify-content: center;
+
+            >div {
+                border-radius: 15px 15px 0 0;
+                background-image: linear-gradient(to right, rgb(196, 196, 234), rgb(218, 218, 157));
+                width: 21.8%;
+                height: 550px;
+                margin: 0 10px;
+            }
+
+            .image {
+                height: 200px;
+                border-radius: 15px 15px 0 0;
+            }
+
+            .topic {
+                display: flex;
+            }
+
+            p {
+                padding: 0 20px;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .blue-back {
+        background-color: #0c1234;
+        color: white;
+
+        h5,
+        h1 {
+            margin: 0;
+        }
+    }
+
+    .blue-back-flex {
+        display: flex;
+        justify-content: space-around;
+
+        .numbers {
+            padding: 20px 20px;
+            border-radius: 10px;
+            background-color: #151d4e;
+
+            h1,
+            p {
+                margin: 0;
+            }
+
+            hr {
+                margin: 25px 0;
+            }
+        }
+
+        img {
+            height: 550px;
+        }
+    }
+
+    .blue-back-flex2 {
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-around;
+        /* align-items: center; */
+        background-image: url(../../assests/blue\ yellow\ gradient.jpg);
+        background-size: cover;
+        background-position: bottom;
+
+        img {
+            height: 450px;
+            width: 700px;
+        }
+
+        span {
+            padding: 0px 13px;
+            border-radius: 90%;
+            margin: 30px;
+        }
+
+        .lblue {
+            background-color: rgb(58, 172, 254);
+        }
+
+        .yellow {
+            background-color: yellow;
+        }
+
+        .dblue {
+            background-color: rgb(10, 10, 195);
+        }
+
+        .orange {
+            background-color: orange;
+        }
+
+        .gray {
+            background-color: gray;
+        }
+    }
+
+    .stakeholders {
+        .cards {
+            display: flex;
+            justify-content: center;
+
+            img {
+                height: 330px;
+            }
+            div {
+                margin: 0 20px;
+                width: 396px;
+            }
+        }
+    }
+
+    .heading {
+        text-align: center;
+
+        h1,
+        h4 {
+            margin: 0;
+        }
+    }
+
+    .approach {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(231, 231, 231);
+
+        section {
+            width: 400px;
+            margin: 0 15px;
+        }
+        span {
+            height: 305px;
+            display: inline-block;
+            background-image: radial-gradient(rgb(186, 212, 255));
+
+            h1 {
+                margin-top: 100px;
+            }
+        }
+        div {
+            height: 250px;
+            background-color: white;
+            padding: 20px 30px;
+            margin: 10px 0;
+            border-radius: 15px;
+            background-image: url(../../assests/line.svg);
+            background-size: cover;
+            box-shadow: rgb(105, 101, 101) 0px 0px 10px 1px;
+        }
+    }
+
+    .download-flex {
+        display: flex;
+        justify-content: center;
+
+        img {
+            height: 675px;
+        }
+        section div {
+            width: 320px;
+            height: 150px;
+            margin: 0 30px 20px 30px;
+            padding: 30px;
+            border-radius: 15px;
+            background-image: linear-gradient(to right, rgb(186, 205, 255), rgb(255, 229, 176));
+            
+            h4 {
+                margin: 0;
+                margin-bottom: 15px;
+            }
         }
     }
 }
