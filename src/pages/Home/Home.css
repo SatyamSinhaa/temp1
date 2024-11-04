@@ -23,13 +23,12 @@
     .lti,
     .journey {
         text-align: center;
-        padding: 40px 0;
+        padding: 30px 0;
         color: white;
     }
 
-    
     .lti {
-        padding: 100px 0;
+        padding: 10px 0;
 
         p {
             padding: 30px 220px;
@@ -38,23 +37,32 @@
 
         background-image: url(../../assests/blue\ yellow\ gradient.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-position: center bottom;
     }
 
     .journey {
         color: #004b88;
 
+        div {
+            width: 500px;
+            margin: auto;
+        }
+
         p {
-            padding: 30px 220px;
+            width: 80%;
+            margin: auto;
             font-size: 20px;
         }
+
+        padding: 30px 0;
     }
 
     .journey-cards {
         display: flex;
         justify-content: space-evenly;
         text-align: center;
-        
+
         div {
             width: 300px;
         }
@@ -74,6 +82,8 @@
             font-size: 20px;
             width: 30%;
         }
+
+        margin-bottom: 50px;
     }
 
     .opportunity {
@@ -144,6 +154,12 @@
     }
 
     .service {
+        padding: 50px 0;
+
+        .head {
+            text-align: center;
+        }
+
         .box {
             display: flex;
             justify-content: center;
@@ -173,6 +189,8 @@
     }
 
     .blue-back {
+        padding-top: 40px;
+        margin-bottom: 40px;
         background-color: #0c1234;
         color: white;
 
@@ -185,6 +203,7 @@
     .blue-back-flex {
         display: flex;
         justify-content: space-around;
+        align-items: center;
 
         .numbers {
             padding: 20px 20px;
@@ -248,6 +267,12 @@
     }
 
     .stakeholders {
+        padding: 30px 0;
+
+        .heading {
+            margin-bottom: 30px;
+        }
+
         .cards {
             display: flex;
             justify-content: center;
@@ -255,11 +280,21 @@
             img {
                 height: 330px;
             }
+
+            h4,
+            p {
+                margin: 0;
+                padding: 5px;
+            }
+
             div {
                 margin: 0 20px;
                 width: 396px;
+                background-image: linear-gradient(to right, rgb(205, 239, 255), rgb(255, 255, 201));
+                padding-bottom: 10px;
             }
         }
+
     }
 
     .heading {
@@ -276,11 +311,14 @@
         justify-content: center;
         align-items: center;
         background-color: rgb(231, 231, 231);
+        padding: 30px 0;
+        margin-bottom: 70px;
 
         section {
             width: 400px;
             margin: 0 15px;
         }
+
         span {
             height: 305px;
             display: inline-block;
@@ -290,6 +328,7 @@
                 margin-top: 100px;
             }
         }
+
         div {
             height: 250px;
             background-color: white;
@@ -309,6 +348,7 @@
         img {
             height: 675px;
         }
+
         section div {
             width: 320px;
             height: 150px;
@@ -316,10 +356,69 @@
             padding: 30px;
             border-radius: 15px;
             background-image: linear-gradient(to right, rgb(186, 205, 255), rgb(255, 229, 176));
-            
+
             h4 {
                 margin: 0;
                 margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width:1024px) {
+    .home {
+        .blue-back-flex {
+            img {
+                height: 350px;
+            }
+        }
+
+        .blue-back-flex2 {
+            img {
+                height: 250px;
+                width: 500px;
+            }
+        }
+
+
+        .service {
+            .box {
+
+                >div {
+                    border-radius: 15px 15px 0 0;
+                    background-image: linear-gradient(to right, rgb(196, 196, 234), rgb(218, 218, 157));
+                    width: 25%;
+                    height: 550px;
+                    margin: 0 10px;
+                }
+
+                .image {
+                    height: 154px;
+                }
+            }
+        }
+
+        .stakeholders {
+            .cards {
+                img {
+                    height: 150px;
+                }
+                div {
+                    margin: 0 15px;
+                }
+            }
+        }
+
+        .download-flex {
+
+            img {
+                height: 610px;
+            }
+
+            section div {
+                width: 220px;
+                height: 130px;
+                margin: 0 15px 20px 15px;
             }
         }
     }

@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className='nav'>
-        <h2>LTIMindtree</h2>
+        <h2>Trade Syndicate</h2>
         <h2>Integrated anual report</h2>
     </div>
   )

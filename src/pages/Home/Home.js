@@ -79,21 +79,21 @@ const Home = () => {
             head: 'Investors',
             p1: 'Delivering greater than average return on investments through dividends and share value appreciation.',
             num: 'USD 5.64 Billion',
-            p2: 'order book value',
+            p2: 'ORDER BOOK VALUE',
         },
         {
             image: client,
             head: 'Clients',
-            p1: 'Delivering greater than average return on investments through dividends and share value appreciation.',
-            num: 'USD 5.64 Billion',
-            p2: 'order book value',
+            p1: 'Helping clients meet theirdigital transformation requirements through robust delivery',
+            num: '5.85',
+            p2: 'CUSTOMER SATISFACTION RATING',
         },
         {
             image: peoples,
             head: 'People',
-            p1: 'Delivering greater than average return on investments through dividends and share value appreciation.',
-            num: 'USD 5.64 Billion',
-            p2: 'order book value',
+            p1: 'We provide our employees a safe, inclusive, and nurturingworkplace, and invest their training, education, and well-being, fostering both personal and professional growth',
+            num: '6.5 Days',
+            p2: 'AVERAGE LEARNING PER EMPLOYEE',
         },
     ]
 
@@ -122,10 +122,10 @@ const Home = () => {
             </div>
 
             <div className='journey'>
-                <h3>LTIMINDTREE JOURNEY</h3>
-                <h1>DRIVING GROWTH AND</h1>
-                <h1>EFFICIENCY THROUGH</h1>
-                <h1>MERGER SYNERGY</h1>
+                <div>
+                    <h3>LTIMINDTREE JOURNEY</h3>
+                    <h1>DRIVING GROWTH AND EFFICIENCY THROUGH MERGER SYNERGY</h1>
+                </div>
                 <p>The strategic merger of LTI and Mindtree has brought opportunities for the combined organization. LTIMindtree is leveraging the complementary strengths of the two companies to drive revenue growth and has already achieved operational excellence by simplifying and optimizing internal processes, IT systems, and policies as a part of this merger.</p>
             </div>
 
@@ -229,8 +229,7 @@ const Home = () => {
             <div className='service'>
                 <div className='head'>
                     <h4>SERVICE OFFERINGS</h4>
-                    <h1>ACCELERATING DIGITAL</h1>
-                    <h1>TRANSFORMATION</h1>
+                    <h1>ACCELERATING DIGITAL TRANSFORMATION</h1>
                 </div>
                 <div className='box'>
                     {
